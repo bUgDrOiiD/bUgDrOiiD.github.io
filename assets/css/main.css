@@ -121,8 +121,8 @@ global styles
 html,
 body {
   font-family: 'Poppins', sans-serif;
-  background-image: url('../images/background.jpg');
-  background-color: gray;
+  /* background-image: url('../images/background.jpg'); */
+  background-color: white;
 }
 
 ::selection {
@@ -1532,8 +1532,6 @@ section.map .info-item {
 section.solutions .info-item.solution {
   text-align: center;
   border-radius: 5px;
-  background-color: ;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   margin-top: 25px;
   position: relative;
   z-index: 2;
@@ -1873,4 +1871,16 @@ body {
   margin-top: 22px;
   color: inherit;
   opacity: 0.75;
+}
+
+.solution h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #B41B24;
+}
+
+@media screen and (max-width: 992px) {
+  section.map .info-item p {
+    min-height: unset;
+  }
 }
